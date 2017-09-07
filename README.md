@@ -1,4 +1,4 @@
-# Selection-sort visualization
+# Selection sort visualization
 A simple interactive visualization of the selection-sort algorithm: https://en.wikipedia.org/wiki/Selection_sort
 
 ## How to use

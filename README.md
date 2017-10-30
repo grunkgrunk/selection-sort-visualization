@@ -1,5 +1,5 @@
 # Selection sort visualization
-![Alt text](screenshot.png?raw=true "Start Screen")
+![Alt text](sortingaction.gif?raw=true "Start Screen")
 
 A simple interactive visualization of the selection-sort algorithm: https://en.wikipedia.org/wiki/Selection_sort.
 

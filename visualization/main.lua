@@ -1,6 +1,4 @@
--- monkeypatching
 
---love.graphics.ImageData
 shack=require'util.shack'
 lume=require'util.lume'
 Timer=require'util.timer'
@@ -9,7 +7,6 @@ Vector=require'util.vector'
 
 local Box = require 'box'
 local Cursor = require 'cursor'
---middleclass=require'util.class'
 
 love.graphics.setLineStyle "rough"
 love.graphics.setDefaultFilter("nearest", "nearest")

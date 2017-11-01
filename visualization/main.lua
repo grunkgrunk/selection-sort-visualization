@@ -11,7 +11,7 @@ local canvas = love.graphics.newCanvas(128, 128)
 canvas:setFilter('nearest','nearest')
 
 local scale = 6
-love.window.setMode(128 *scale, 128 * scale, {borderless=true})
+love.window.setMode(128 * scale, 128 * scale, {borderless=true})
 
 local palette = {
   {0,0,0},
@@ -111,7 +111,7 @@ function revert(time, ...)
   end)
 end
 
-function sortboxes()
+function startsort()
   sorting = true
   Timer.script(function(wait)
     local curri=1
@@ -258,7 +258,7 @@ function love.keypressed(key)
     if sorting then
       stopsort()
     else
-      sortboxes()
+      startsort()
     end
   end
 end

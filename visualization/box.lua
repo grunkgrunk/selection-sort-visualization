@@ -1,8 +1,6 @@
 local class = require 'util.middleclass'
 local Timer = require 'util.timer'
-
-local flr = math.floor
-local round = function(n) return flr(n+0.5) end
+local round = function(n) return math.floor(n+0.5) end
 
 local Box = class('Box')
 

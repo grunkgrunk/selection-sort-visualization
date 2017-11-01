@@ -13,12 +13,10 @@ function Cursor:initialize(boxes, shack)
   self.box = boxes[self.i + 1]
   self.color = 4
   self.x, self.y = 0,0
-
 end
 
 function Cursor:update(dt)
   self.x,self.y = self.box.x,self.box.y
-
 end
 
 function Cursor:move(dir)
@@ -49,7 +47,7 @@ end
 function Cursor:draw()
   color(self.box.number)
   local sx,sy = self.s+1, self.s+1
-  love.graphics.rectangle("line", round(self.box.x),round(self.box.y), sx,sy)
+  love.graphics.rectangle('line', round(self.box.x),round(self.box.y), sx,sy)
 end
 
 return Cursor
